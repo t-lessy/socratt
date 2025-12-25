@@ -13,7 +13,7 @@
 ## Why "Socratt"?
  Because it uses socat. Soc+rat+t. Do not mind about last T like t-lessy. >:(
 
-##Example Compose file:
+## Example Compose file:
 ```yaml
 services:
   socratt:
