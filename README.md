@@ -3,9 +3,7 @@
  - You give it starting and ending port, local ip as destination and start it!
 
 ## Why? & Why Docker image, as it can be used as shell script?
- I love Docker Compose and it's simplicity for anyone's home-lab. I also have some local machines and Pelican panel, but don't want to use advanced iptables' rules for forwarding ports. 
- If you familiar with Pelican (not sure about Pterodactyl), you know it have no port forwarding, and relies on your own networking skills. It seems like no problem with one host-machine, but if you have several hosts (Wings) then it opening ports only on machine running server, but not a one with WAN domain.
- It does NOT link a server with main domain, but requires you to have a reverse proxy, local network with ready forwarding, or router-device with multi-ip-per-domain (not subdomains) capability. I assumed it would be easier to have ready compose.yml for others, who need to set up forwarding fast and concrete.
+ - I love Docker Compose and it's simplicity for anyone's home-lab. I also have some local machines and Pelican panel, but don't want to use advanced iptables' rules for forwarding ports. If you familiar with Pelican (not sure about Pterodactyl), you know it have no port forwarding, and relies on your own networking skills. It seems like no problem with one host-machine, but if you have several hosts (Wings) then it opening ports only on machine running server, but not a one with WAN domain. It does NOT link a server with main domain, but requires you to have a reverse proxy, local network with ready forwarding, or router-device with multi-ip-per-domain (not subdomains) capability. I assumed it would be easier to have ready compose.yml for others, who need to set up forwarding fast and concrete.
 
 ## Who would need it?
  - Selfhosters with simplicity-need for their homelabs.
