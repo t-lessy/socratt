@@ -17,7 +17,7 @@
 ```yaml
 services:
   socratt:
-    image: git.tlessy.ru/t-lessy/socratt
+    image: git.tlessy.ru/t-lessy/socratt # also mirroring to ghcr.io/t-lessy/socratt
     container_name: socratt
 	  # cap_add: [NET_BIND_SERVICE] ### USE IT only WITH PRIVILEGED PORTS (below 1025)
     network_mode: host # It will not use already opened ports, but can open it earlier than host. Use it carefully.
